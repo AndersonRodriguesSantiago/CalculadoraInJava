@@ -52,10 +52,9 @@ public class Calculadora
     
     public static double potencia(double x, double y)
     {
+        double a = x;
         for(int i = 1;i<y;i++)
-        {
-            x = x*x;
-        }
-        return(x);
+            a=a*x;
+        return(a);
     }
 }
