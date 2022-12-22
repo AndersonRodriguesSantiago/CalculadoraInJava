@@ -39,16 +39,27 @@ public class Calculadora
         }
         
         System.out.println("FIM");
+        /*System.out.print("Again? (S/N) : ");  // ask the input from user
+        String var= sc.next();
+        if(var.equalsIgnoreCase("S")){// Matches "Y" or "y"
+            main(null); // if input is Y then call main again. 
+        }*/
     }
     
-    public static double multiplicacao (double x, double y){
-        return(x*y);}
+    public static double multiplicacao(double x, double y)
+    {
+        return(x*y);
+    }
     
-    public static double divisao(double x, double y){
-        return((x/y));} 
+    public static double divisao(double x, double y)
+    {
+        return((x/y));
+    } 
     
-    public static double resto(double x, double y){
-        return((x%y));}
+    public static double resto(double x, double y)
+    {
+        return((x%y));
+    }
     
     public static double potencia(double x, double y)
     {
@@ -57,4 +68,5 @@ public class Calculadora
             a=a*x;
         return(a);
     }
+    
 }
